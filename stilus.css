@@ -1,0 +1,90 @@
+/* Teljes oldal */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: rgb(60, 27, 70);
+    background-image: url('hatter.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Tartalom középre */
+
+#tarolo {
+    width: 800px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    padding: 10pt;
+}
+
+/* Főcím */
+
+h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20pt;
+    letter-spacing: 10pt;
+    text-transform: uppercase;
+}
+
+/* Bekezdések */
+
+p {
+    text-align: justify;
+}
+
+/* Menü grid segítségével */
+
+#menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Menüpontok */
+
+#menu a {
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid rgb(109, 148, 231);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(224, 242, 245);
+    color: black;
+}
+
+/* Egér fölé vitel */
+
+#menu a:hover {
+    background-color: #444;
+    color: white;
+}
+
+/* Kép és szöveg grid */
+
+p {
+text-align: justify;
+line-height: 1.5;
+}
+
+/* Kép */
+
+.recept {
+display: grid;
+grid-template-columns: 2fr 1fr;
+gap: 10px;
+align-items: start;
+}
+
+.recept img {
+width: auto;
+height: auto;
+border: 1px solid rgb(102, 171, 190);
+border-radius: 10px;
+padding: 2pt;
+}
